@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    .main{
+        width: 100%;
+        background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../img/unnamed.jpg);
+        background-position:center;
+        height: 150vh;
+       
+    }
+    .navebar{
+        width: 1200px;
+        height: 70px;
+        margin: auto;
+    }
+    .icon{
+        width: 150px;
+        float: left;
+        height: 70px;
+    }
+    .logo{
+        color: rgb(195, 175, 27);
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 100px;
+        padding: 10px;
+    }
+    .menu{
+        float: left;
+        height: 70px;
+        width: 500px;
+    }
+    ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    ul li{
+        list-style: none;
+        margin-left: 60px;
+        margin-top: 20px;
+        font-size: 14px;  
+    }
+    ul li a{
+        text-decoration: none;
+        color:white;
+        font-family: Arial;
+        font-weight: bold;
+    }
+    ul li :hover{
+        color:orange;
+        transition: 0.4s ease-in-out;
+    }
+    .search{
+        width: 300px;
+        float: left;
+        margin-left: 250px;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid orange;
+        margin-top: 13px;
+        color: white;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-left-radius: 5px; 
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background-color: orange;
+        margin-top: 13px;
+        color: white;
+        font-size: 16px;
+        border-bottom-right-radius: 5px; 
+        border-bottom-right-radius: 5px; 
+    }
+    .btn:focus{
+        outline: none; 
+    }
+    .srch:focus{
+        outline: none;
+    }
+    .ss{
+        color: white;
+    }.sss{
+        margin: 10px;
+        background: transparent;
+    }
+    .ssss{
+        padding: 20px;
+        width: 97%;
+    }
+    form{
+        padding: 10px;
+    }
+    table{
+       
+        margin: 50px;
+        padding: 10px; 
+    }
+    tr{
+        border: 1px solid whitew;
+    }
+    td{
+        border: 1px solid white; 
+    }
+    tr td{
+         width: 650px;
+         padding: 10px;
+    }
+    .contant{
+        color: white;
+        padding: 20px;
+        margin: 20px;
+    }
+    .st{
+        color: orange;
+    }
+    .tables{
+        text-align: center;
+    }
+    .buttons{
+        background-color: green;
+        color: black;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+        border: none;
+
+    }
+    .buttons:hover{
+        color: black;
+        background-color: white;
+    }
+    .mail{
+        text-decoration: none;
+        color: white;
+    }
+    .p{
+        color: black;
+    }
